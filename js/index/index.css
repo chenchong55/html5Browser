@@ -1,6 +1,36 @@
-
-.showcar {
-  background-color: blue;
-  height: 400px;
-
+body {
+  text-align: center;
+  display: block;
+  background-color: #efefef;
 }
+  .showcar {
+    height: 100%;
+    width: 400px;
+    margin: 0px;
+  }
+
+  .container {
+    margin-top: 40px;
+    margin-right: 50px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text-aligns {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .text-car-price {
+    font-size: 30px;
+  }
+
+  .downicon {
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+  }
+
+  .text-car-price-color {
+    color: red;
+  }
