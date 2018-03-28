@@ -1,34 +1,78 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>小陈汽车</title>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
-<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style type="text/css">
-.container {
-  margin-top: 50px;
-}
 
-.text-align {
-  text-align: center;
-  margin-bottom: 20px;
-}
-</style>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>小陈汽车</title>
+  <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="fullPage/jquery.fullPage.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" />
+  <script type="text/javascript" src="fullPage/jquery.fullPage.js"></script>
+  <style type="text/css">
+    .showcar {
+      background-color: #efe;
+      height: 100%;
+      margin: 0px;
+    }
 
-  <body>
-    <div class="container">
-        <h2 class="text-align">宝马3系</h2>
+    .text-aligns {
+      text-align: left;
+      margin-top: 0px;
+      margin-left: 30px;
+    }
 
-        <image src="images/index/baoma1.jpg" class="img-responsive" alt="Responsive image"></image>
+    .downicon {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      display: block;
+      margin-top: 30px;
+    }
+
+    .text-car-price {
+      font-size: 20px;
+      margin-left: 15px;
+      margin-bottom: 2px;
+    }
+
+    .text-car-price-color {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="section">
+    <div class="showcar">
+      <h3 class="text-aligns">宝骏310</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <image src="images/index/the_main_figure.png" class="img-responsive" alt="Responsive image" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row ">
+        <div class="col-xs-6 col-md-4">
+          <text class="text-car-price">价格：<text class="text-car-price-color">120000</text>RMB</text>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <image class="downicon" src="images/icon/if_down.png"></image>
+        </div>
+      </div>
     </div>
-    <table>
-    </table>
-  </body>
+  </div>
+
+
+  <table>
+  </table>
+</body>
+
 </html>
